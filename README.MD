@@ -14,6 +14,7 @@ gin是一个小规模、高效的web框架，功能偏少但高并发时性能�
 ```
 curl -v http://127.0.0.1:8080/hello/pfjhyyj
 ```
+-v  返回信息更加详细
 
 结果
 
@@ -44,6 +45,9 @@ RawContentLength  : 13
 ```
 ab -n 1000 -c 100 http://127.0.0.1:8080/hello/pfjhyyj
 ```
+
+-n 请求总数
+-c 并发数量
 
 结果
 

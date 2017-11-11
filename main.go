@@ -25,6 +25,7 @@ func main() {
 		port = *pPort
 	}
 
+	// Open a new server default on 8080 port
 	server := service.NewServer()
 	server.Run(":" + port)
 }
